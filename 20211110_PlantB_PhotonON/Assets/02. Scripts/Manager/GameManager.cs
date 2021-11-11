@@ -37,8 +37,6 @@ public class GameManager : MonoBehaviour
     public int curRuby;
     public Text MoneyUI;
     public Text rubyUI;
-    //public int maxpool = 10;
-    ////  public List<GameObject> bulletpool = new List<GameObject>();
 
     bool isBingo = false; //빙고 여부
                           //게임 오버
@@ -101,7 +99,6 @@ public class GameManager : MonoBehaviour
     {
         //GameResult.Ready 상태에서 플레이어가 최소 2명이 될때!
         //GameResult를 바꿔준다.
-
         gameResult = GameResult.playing;
     }
     void Update()

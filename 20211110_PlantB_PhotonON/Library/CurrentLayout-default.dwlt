@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 709, y: 471}
+  m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
-  controlID: 160
+  controlID: 85
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 501
     height: 947
-  m_MinSize: {x: 232, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 232, y: 471}
+  m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
   controlID: 86
 --- !u!114 &10
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 501
     height: 474
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -365,7 +365,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
       y: 21
       width: 1068
       height: 453
-    m_Scale: {x: 0.43888888, y: 0.43888885}
+    m_Scale: {x: 0.41944444, y: 0.41944444}
     m_Translation: {x: 534, y: 226.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -386,12 +386,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1216.7089
-      y: -516.076
-      width: 2433.4177
-      height: 1032.152
+      x: -1273.1125
+      y: -540
+      width: 2546.225
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.43888888
+  m_defaultScale: 0.41944444
   m_LastWindowPixelSize: {x: 1068, y: 474}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -434,9 +434,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -1.2383898, y: -21.965294, z: -8.353395}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -1.2383898, y: -21.965294, z: -8.353395}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -483,13 +483,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.052159946, y: -0.014912785, z: -0.0010428253, w: -0.99860954}
+    m_Target: {x: -0.40392488, y: 0.012292851, z: -0.005716593, w: -0.9147818}
     speed: 2
-    m_Value: {x: 0.052159943, y: -0.014912784, z: -0.0010428252, w: -0.9986095}
+    m_Value: {x: -0.40389162, y: 0.012291838, z: -0.005716122, w: -0.91470647}
   m_Size:
-    m_Target: 10
+    m_Target: 23.0786
     speed: 2
-    m_Value: 10
+    m_Value: 23.0786
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -730,9 +730,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 6e130000
       m_LastClickedID: 0
-      m_ExpandedIDs: 12fbffff
+      m_ExpandedIDs: 54deffff28e9ffff4afbffff705b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -794,23 +794,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/01. Scenes
+    - Assets/02. Scripts/Player/Hatch
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/01. Scenes
+  - Assets/02. Scripts/Player/Hatch
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\BBORIS\\Desktop\\\uD50C\uB79C\uD2B8\uBE44 \uC2E4\uD5D8\\20211029_Plant_B_Night
-    (1)"
+  m_LastProjectPath: C:\Users\BBORIS\Documents\GitHub\PlantB_Photon\20211110_PlantB_PhotonON
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2460000
-    m_LastClickedID: 18162
-    m_ExpandedIDs: 000000003e46000040460000424600004446000046460000484600004a4600004c4600004e46000050460000524600005446000056460000584600005a4600005c4600005e4600006046000000ca9a3b
+    m_SelectedIDs: 925b0000
+    m_LastClickedID: 23442
+    m_ExpandedIDs: 000000003e46000040460000424600004446000046460000484600004a4600004c4600004e46000050460000524600005446000056460000584600005a4600005c4600005e46000060460000f446000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -865,7 +864,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: d8400000605400005c54000058540000103d0000185000007e4a0000644a00006c4a0000e6f50000d8f500004cfc000054fc0000f8fc00009e3d0000720f0100864800008e480000663e00009270000000000000b6490000664a0000e65a0100aa500000e2800000de8000002c8100003481000020d60200689c0100a8d202004c98010048980100cc4d0000b455000088510000444c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

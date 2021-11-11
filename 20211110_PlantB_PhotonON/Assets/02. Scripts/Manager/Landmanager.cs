@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Landmanager : MonoBehaviour
 {
+    public int[,] FloorOcc = new int[5, 5];//각 바닥마다 번호 설정
 
     public static Landmanager instance = null;
 
     public int BingoCount;
 
-    public int[,] FloorOcc = new int[5, 5];//각 바닥마다 번호 설정
 
     private void OnEnable()
     {

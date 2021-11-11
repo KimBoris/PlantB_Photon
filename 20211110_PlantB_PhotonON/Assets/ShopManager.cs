@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 using System;
 
 public class ShopManager : MonoBehaviour
@@ -103,10 +102,7 @@ public class ShopManager : MonoBehaviour
         RefreshEquipInventory(); //게임데이터에 저장된 장착중인 장비 가져오기
         RefreshValue(); //돈과 재화를 초기화 하기 위해서
     }
-    void Update()
-    {
-
-    }
+    
 
     //[구매 버튼 클릭]
     public void BuyButtonDown() 
@@ -162,17 +158,15 @@ public class ShopManager : MonoBehaviour
 
     //[결과창의 확인 버튼입력시 인벤토리에서 벌어지는 것들]
     public void ResultConfirmBtn()
-    {
-        GameObject slots = Instantiate(slot, new Vector3(0, 0, 0), Quaternion.identity);//인벤토리 내부에 슬롯 생성
-        slotImg = slots.transform.Find("ItemImage").GetComponent<Image>();              //생성된 슬롯 이미지 컴포넌트 가져오기
-        slotImg.sprite = resultItemImg.sprite;                                          //슬롯이미지의 스프라이트 결과아이템으로 적용
+    {   //인벤토리 내부에 슬롯 생성
+        GameObject slots = Instantiate(slot, new Vector3(0, 0, 0), Quaternion.identity);
+        //생성된 슬롯 이미지 컴포넌트 가져오기
+        slotImg = slots.transform.Find("ItemImage").GetComponent<Image>();
+        //슬롯이미지의 스프라이트 결과아이템으로 적용
+        slotImg.sprite = resultItemImg.sprite;                                          
 
         slots.transform.SetParent(slotParent.transform);//slots의 부모 찾아주기 (grid), 그리드에 안착
         slots.transform.localScale = Vector3.one;       //slots의 크기 조정
-
-
-        //getItemName.Add(itemName);//얻은 결과아이템의 이름을 getItemName(LIst) 에 추가 
-        //getItemName.Remove(itemName);//누적이 되어 버리기 때문에 지워준다.
         GameDataManager.instance.gameData.haveItemName.Add(itemName);
         GameDataManager.instance.SaveGameData();
         ResultSet.SetActive(false);
