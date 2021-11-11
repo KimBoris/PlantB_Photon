@@ -1,0 +1,2 @@
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\PunDemos.DemoHubEditor.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\PunDemos.DemoHubEditor.csproj.CoreCompileInputs.cache

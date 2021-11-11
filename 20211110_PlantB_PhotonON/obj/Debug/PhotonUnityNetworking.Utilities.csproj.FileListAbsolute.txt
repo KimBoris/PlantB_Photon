@@ -1,0 +1,4 @@
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\PhotonUnityNetworking.Utilities.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\PhotonUnityNetworking.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\20211027_Plant_B_AfterNoon\obj\Debug\PhotonUnityNetworking.Utilities.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\20211027_Plant_B_AfterNoon\obj\Debug\PhotonUnityNetworking.Utilities.csproj.CoreCompileInputs.cache

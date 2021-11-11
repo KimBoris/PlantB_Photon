@@ -1,0 +1,4 @@
+C:\Users\BBORIS\Downloads\20211008_Plant_B\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+C:\Users\BBORIS\Downloads\20211008_Plant_B\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\20211016_Plant_B\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
